@@ -1,0 +1,6 @@
+package jsonData;
+
+public class Course {
+    private String courseName;
+    private double score;
+}
