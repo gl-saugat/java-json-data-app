@@ -16,4 +16,8 @@ public class Student {
         this.id = "ID:" + LocalDate.now();
         this.courses = new ArrayList<>();
     }
+
+    public void addCourse(Courses course, double score){
+        this.courses.add(new Course(course, score));
+    }
 }
